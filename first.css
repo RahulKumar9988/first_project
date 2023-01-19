@@ -1,0 +1,312 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Tiro Devanagari Hindi', serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.header
+{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('h1_hero.png');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav
+{
+    display: flex;
+    padding: 2% 1%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav img
+{
+
+    width: 150px;
+
+}
+
+.logo-size {
+    height: 70px;
+    width: 75px;
+
+}
+
+.nav-links
+{
+    flex: 1;
+    text-align: right;
+
+}
+
+.nav-links ul li
+{
+
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}    
+
+.nav-links ul li a
+{
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+
+}
+.nav-links ul li::after
+{
+    content: ' ';
+    width: 0% ;
+    height: 2px;
+    background-color: rgb(212, 30, 30);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after
+{
+    width: 100%;
+    
+}
+.text-box
+{
+    width: 90%;
+    color: rgb(245, 245, 181);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
+
+.text-box h6{
+    font-size: 50px;
+}
+.text-box h1{
+    margin: 10px 0 40px;
+    font-size: 100px;
+    color: white;
+}
+
+.hero-btn
+{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(239, 207, 149);
+    padding: 1px solid rgb(184, 255, 5);
+    padding: 12px 34px;
+    font-size: 30px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.hero-btn:hover
+{
+    border: 1px solid rgb(0, 0, 0);
+    background: rgb(255, 52, 52);
+    transition: 1s;
+}
+
+
+/*coures*/
+.course{
+    width: 40%;
+    margin: 10%;
+    text-align: left;
+    padding-top: 100px;
+    padding-left: 0%;
+}
+h1
+{
+    font-size: 46px;
+    font-weight: bolder;
+    
+}
+
+h5{
+    color: rgb(55, 55, 248);
+    font-size: 30px;
+    font-weight: bolder;
+    
+}
+
+.read{
+    color:rgb(12, 12, 12);
+    font-size: 20px;
+    font-weight: 0;
+    line-height: 22px;
+    padding: 10px;
+    background: rgb(255, 243, 228);
+    box-sizing: border-box ;
+}
+
+p:hover  
+{
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+
+}
+
+
+
+.Deopartment
+{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    background-color: rgb(210, 245, 255)
+}
+h3
+{
+    font-size: 36px;
+    font-weight: 600;
+
+}
+
+.depnote
+{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.row    
+{
+    margin: 0%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.dep
+{
+    flex-basis: 31%;
+    border-radius:10px; 
+    margin-bottom:5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+.DD
+{
+    height: 300px;
+    width: 200px;
+}
+
+.DD:hover  
+{
+    box-shadow: 0 0 10px rgb(0, 0,0.2);
+}
+
+
+
+
+/*  gellary  */
+
+.gellary
+{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.camp
+{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.side   
+{
+    transition: transform 0.8s; 
+    
+}
+.side:hover
+{
+    transform: scale(1.2);
+}
+
+.header-mid
+{
+    min-height: 100vh;
+    width: 100%;
+    margin: auto;
+    background-image: url('comtact us.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.OUR-DOCTORS
+{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.facilities
+{
+    flex: basis 31%;
+    border-radius: 50px;
+    margin-bottom:5%;
+    text-align: left;
+
+}
+
+
+.facilities
+{
+ 
+    justify-content: space-between;
+    width: 33.33%;
+    padding: 5px;
+    transition: transform 0.8s; 
+}
+
+.facilities:hover
+{
+    transform: scale(1.2);
+}
+
+.footer
+{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.aboutus
+{   
+    color:rgb(255, 255, 255) ;
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+
+.foot
+{
+    text-align: left;
+    color: rgb(255, 238, 238);
+    font-size: 20px;
+
+}
+
+p{
+    color: #fff;
+}
+
+
+
+
